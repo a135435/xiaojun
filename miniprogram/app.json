@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/food/food",
+    "pages/recommend/recommend",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F69474",
+    "navigationBarTitleText": "小君今天吃什么",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": false,
+    "color": "#999999",
+    "selectedColor": "#FF8C69",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar_png/home.png",
+        "selectedIconPath": "images/tabbar_png/home_selected.png"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "text": "食物库",
+        "iconPath": "images/tabbar_png/food.png",
+        "selectedIconPath": "images/tabbar_png/food_selected.png"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐",
+        "iconPath": "images/tabbar_png/recommend.png",
+        "selectedIconPath": "images/tabbar_png/recommend_selected.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "images/tabbar_png/history.png",
+        "selectedIconPath": "images/tabbar_png/history_selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
